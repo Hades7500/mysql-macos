@@ -2,7 +2,7 @@
 
 * Make sure you have installed [mySQL](https://dev.mysql.com/downloads/mysql)
 
-* Download the mysql [installation script](https://github.com/Hades7500/mysql-macos/releases/latest/download/mysql)
+* [Download](https://github.com/Hades7500/mysql-macos/releases/latest/download/mysql) the mysql script
 
 * Put the file in the Downloads folder
 
