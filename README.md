@@ -1,12 +1,15 @@
 # Usage
 
-* Make sure you have installed [mySQL](https://dev.mysql.com/downloads/mysql)
+* Make sure you have installed and setup [mySQL](https://dev.mysql.com/downloads/mysql)
 
 * [Download](https://github.com/Hades7500/mysql-macos/releases/latest/download/mysql) the mysql script
 
 * Put the file in the Downloads folder
 
-* run `bash Downloads/mysql` in the terminal
+* Open the terminal and run:
+```
+$ bash Downloads/mysql
+```
 
 * Enter the username you want to use for your mySQL account
 
