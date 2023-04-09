@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+echo "export PATH=${PATH}:/usr/local/mysql/bin/" >> ~/.bash_profile
+
+read -p "Enter the username you want to use: " USERNAME
+read -sp "Enter the password you want to use: " PASSWD
+echo
+read -sp "Enter the password you set for mySQL: " SQLPASSWD
+echo
+
+sudo mysql -u root --password="${SQLPASSWD}" <<MYSQL_SCRIPT
+CREATE USER '${USERNAME}'@'localhost' IDENTIFIED BY '${PASSWD}';
+GRANT ALL PRIVILEGES ON *.* TO '${USERNAME}'@'localhost';
+FLUSH PRIVILEGES;
+MYSQL_SCRIPT
+
+echo
+echo "User $USERNAME created with password $PASSWD"
