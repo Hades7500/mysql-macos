@@ -1,4 +1,4 @@
-# Installing
+# Installation
 
 * Make sure you have installed and setup [mySQL](https://dev.mysql.com/downloads/mysql)
 
